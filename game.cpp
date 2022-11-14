@@ -53,10 +53,10 @@ int main(){
         cout<<"Player "<<player<<",Enter the postition you want to choose: ";
         cin>>input;
         if(input<1||input>9){
-            cout<<"Invalid Postition";
+            cout<<"\nInvalid Postition!\n";
         }
         else if(res[input-1]!=input){
-            cout<<"Already Played";
+            cout<<"\nAlready Selected!\n";
         }
         else{
             res[input-1]=val;
@@ -66,10 +66,10 @@ int main(){
                 counter++;
             }
             else{
-                cout<<status<<" is the winner!";
+                cout<<"\n"<<status<<" is the winner!";
                 return 0;
             }
         }
     }
-    cout<<"The game is draw!";
+    cout<<"\nThe game is draw!\n";
 }
