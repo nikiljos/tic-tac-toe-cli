@@ -66,10 +66,12 @@ int main(){
                 counter++;
             }
             else{
+                print_grid(res);
                 cout<<"\n"<<status<<" is the winner!\n";
                 return 0;
             }
         }
     }
+    print_grid(res);
     cout<<"\nThe game is draw!\n";
 }
