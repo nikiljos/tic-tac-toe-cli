@@ -66,7 +66,7 @@ int main(){
                 counter++;
             }
             else{
-                cout<<"\n"<<status<<" is the winner!";
+                cout<<"\n"<<status<<" is the winner!\n";
                 return 0;
             }
         }
